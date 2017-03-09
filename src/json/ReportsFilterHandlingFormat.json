@@ -1,0 +1,130 @@
+{
+  "context" : {
+      "UserCode" : "1234",
+      "UserName" : "Sudheer",
+      "Roles" : ["Salesman"]
+  },
+  "filterSchema" : [
+      {
+        "FilterId" : "Country",
+        "Title" : "Country 44",
+        "InputType" : "SingleSelect",
+        "DataService" : "json/data/country.json",
+        "SelectionField" : "Code",
+        "DisplayField" : "Value",
+        "DisplayFunction" : null,
+        "TargetItem" : "Country",
+        "PreconditionFilters" : [],
+        "DefaultSelectedItemValue" : null, 
+        "EventOnSelectionChange" : null
+      },
+      {
+        "FilterId" : "City",
+        "Title" : "City",
+        "InputType" : "SingleSelect",
+        "DataService" : "json/data/city.json",
+        "SelectionField" : "Code",
+        "DisplayField" : "Value",
+        "DisplayFunction" : null,
+        "TargetItem" : "City",
+        "PreconditionFilters" : [],
+        "DefaultSelectedItemValue" : null, 
+        "EventOnSelectionChange" : null
+      },
+      {
+        "FilterId" : "Region",
+        "Title" : "Region",
+        "InputType" : "SingleSelect",
+        "DataService" : "json/data/region.json",
+        "SelectionField" : "Code",
+        "DisplayField" : "Value",
+        "DisplayFunction" : null,
+        "TargetItem" : "Region",
+        "PreconditionFilters" : [],
+        "DefaultSelectedItemValue" : null, 
+        "EventOnSelectionChange" : null
+      }
+    ],
+  "filterModels" : {
+    "SalesOrg" : {
+      "Model" : [
+                  {"Code" : "121", "Name" : "Org 1" , "Label" : "[121] Org 1"},
+                  {"Code" : "234", "Name" : "Org 2" , "Label" : "[234] Org 2"},
+                  {"Code" : "456", "Name" : "Org 3" , "Label" : "[456] Org 3"}
+                 ]
+    },
+    "CustomerGroup" : {
+      "Channel" : {
+        "Model" : [
+                  {"Code" : "121", "Name" : "Org 1" , "Label" : "[121] Org 1"},
+                  {"Code" : "234", "Name" : "Org 2" , "Label" : "[234] Org 2"},
+                  {"Code" : "456", "Name" : "Org 3" , "Label" : "[456] Org 3"}
+                 ]
+      },
+      "Subchannel" :{
+        "Model" : [
+                  {"Code" : "121", "Name" : "Org 1" , "Label" : "[121] Org 1"},
+                  {"Code" : "234", "Name" : "Org 2" , "Label" : "[234] Org 2"},
+                  {"Code" : "456", "Name" : "Org 3" , "Label" : "[456] Org 3"}
+                 ]
+      },
+      "Customer" : {
+        "Model" : [
+                  {"Code" : "121", "Name" : "Org 1" , "Label" : "[121] Org 1"},
+                  {"Code" : "234", "Name" : "Org 2" , "Label" : "[234] Org 2"},
+                  {"Code" : "456", "Name" : "Org 3" , "Label" : "[456] Org 3"}
+                 ]
+      }
+    }
+  },
+  "filterSelectedModels" : {
+    "SalesOrg" : {
+      "SelectedModel" : [
+                  {"Code" : "121", "Name" : "Org 1" , "Label" : "[121] Org 1"},
+                  {"Code" : "456", "Name" : "Org 3" , "Label" : "[456] Org 3"}
+                 ]      
+    },
+    "CustomerGroup" : {
+       "SelectedModel" : [{
+      "Channel" : [
+                    {"Code" : "121", "Name" : "Org 1" , "Label" : "[121] Org 1"},
+                  {"Code" : "234", "Name" : "Org 2" , "Label" : "[234] Org 2"},
+                  {"Code" : "456", "Name" : "Org 3" , "Label" : "[456] Org 3"}
+                 ],
+      "Subchannel" :[
+                 ],
+      "Customer" : [
+                 ]
+         },
+         {
+      "Channel" : [
+                    {"Code" : "121", "Name" : "Org 1" , "Label" : "[121] Org 1"}
+                 ],
+      "Subchannel" :[
+                  {"Code" : "121", "Name" : "Org 1" , "Label" : "[121] Org 1"},
+                  {"Code" : "234", "Name" : "Org 2" , "Label" : "[234] Org 2"},
+                  {"Code" : "456", "Name" : "Org 3" , "Label" : "[456] Org 3"}
+                 ],
+      "Customer" : [
+                 ]          
+         },
+         {
+      "Channel" : [
+                    {"Code" : "121", "Name" : "Org 1" , "Label" : "[121] Org 1"}
+                 ],
+      "Subchannel" :[
+                  {"Code" : "121", "Name" : "Org 1" , "Label" : "[121] Org 1"}
+                 ],
+      "Customer" : [
+                  {"Code" : "121", "Name" : "Org 1" , "Label" : "[121] Org 1"},
+                  {"Code" : "234", "Name" : "Org 2" , "Label" : "[234] Org 2"},
+                  {"Code" : "456", "Name" : "Org 3" , "Label" : "[456] Org 3"}
+                 ]
+         }
+       ]
+
+    }
+  }
+
+    
+}

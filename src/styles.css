@@ -1,0 +1,12 @@
+body{
+  margin-left: 20px !important;
+}
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+.commaList li{list-style: none; float: left}
+.commaList li:before {content: ", ";}
+.commaList li:first-child:before {content: ""; } /* empty string */

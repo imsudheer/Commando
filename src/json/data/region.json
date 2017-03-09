@@ -1,0 +1,402 @@
+[
+ {
+   "Value": "VDA",
+   "Code": "VDA"
+ },
+ {
+   "Value": "Massachusetts",
+   "Code": "Massachusetts"
+ },
+ {
+   "Value": "VIC",
+   "Code": "VIC"
+ },
+ {
+   "Value": "Flevoland",
+   "Code": "Flevoland"
+ },
+ {
+   "Value": "LIG",
+   "Code": "LIG"
+ },
+ {
+   "Value": "JH",
+   "Code": "JH"
+ },
+ {
+   "Value": "Tasmania",
+   "Code": "Tasmania"
+ },
+ {
+   "Value": "Trentino-Alto Adige",
+   "Code": "Trentino-Alto Adige"
+ },
+ {
+   "Value": "FVG",
+   "Code": "FVG"
+ },
+ {
+   "Value": "KL",
+   "Code": "KL"
+ },
+ {
+   "Value": "Flevoland",
+   "Code": "Flevoland"
+ },
+ {
+   "Value": "WA",
+   "Code": "WA"
+ },
+ {
+   "Value": "Flevoland",
+   "Code": "Flevoland"
+ },
+ {
+   "Value": "Nagaland",
+   "Code": "Nagaland"
+ },
+ {
+   "Value": "Nebraska",
+   "Code": "Nebraska"
+ },
+ {
+   "Value": "Jharkhand",
+   "Code": "Jharkhand"
+ },
+ {
+   "Value": "TAS",
+   "Code": "TAS"
+ },
+ {
+   "Value": "Chhattisgarh",
+   "Code": "Chhattisgarh"
+ },
+ {
+   "Value": "Northern Territory",
+   "Code": "Northern Territory"
+ },
+ {
+   "Value": "Alabama",
+   "Code": "Alabama"
+ },
+ {
+   "Value": "Fife",
+   "Code": "Fife"
+ },
+ {
+   "Value": "Dr",
+   "Code": "Dr"
+ },
+ {
+   "Value": "Zuid Holland",
+   "Code": "Zuid Holland"
+ },
+ {
+   "Value": "Friesland",
+   "Code": "Friesland"
+ },
+ {
+   "Value": "Australian Capital Territory",
+   "Code": "Australian Capital Territory"
+ },
+ {
+   "Value": "AL",
+   "Code": "AL"
+ },
+ {
+   "Value": "New South Wales",
+   "Code": "New South Wales"
+ },
+ {
+   "Value": "Victoria",
+   "Code": "Victoria"
+ },
+ {
+   "Value": "NSW",
+   "Code": "NSW"
+ },
+ {
+   "Value": "Daman and Diu",
+   "Code": "Daman and Diu"
+ },
+ {
+   "Value": "Jharkhand",
+   "Code": "Jharkhand"
+ },
+ {
+   "Value": "Cambridgeshire",
+   "Code": "Cambridgeshire"
+ },
+ {
+   "Value": "Alaska",
+   "Code": "Alaska"
+ },
+ {
+   "Value": "HE",
+   "Code": "HE"
+ },
+ {
+   "Value": "Victoria",
+   "Code": "Victoria"
+ },
+ {
+   "Value": "Kerala",
+   "Code": "Kerala"
+ },
+ {
+   "Value": "MA",
+   "Code": "MA"
+ },
+ {
+   "Value": "Basilicata",
+   "Code": "Basilicata"
+ },
+ {
+   "Value": "Andaman and Nicobar Islands",
+   "Code": "Andaman and Nicobar Islands"
+ },
+ {
+   "Value": "PUG",
+   "Code": "PUG"
+ },
+ {
+   "Value": "South Australia",
+   "Code": "South Australia"
+ },
+ {
+   "Value": "CL",
+   "Code": "CL"
+ },
+ {
+   "Value": "NT",
+   "Code": "NT"
+ },
+ {
+   "Value": "Dr",
+   "Code": "Dr"
+ },
+ {
+   "Value": "MS",
+   "Code": "MS"
+ },
+ {
+   "Value": "Nagaland",
+   "Code": "Nagaland"
+ },
+ {
+   "Value": "Z.",
+   "Code": "Z."
+ },
+ {
+   "Value": "Noord Brabant",
+   "Code": "Noord Brabant"
+ },
+ {
+   "Value": "KA",
+   "Code": "KA"
+ },
+ {
+   "Value": "Delhi",
+   "Code": "Delhi"
+ },
+ {
+   "Value": "TN",
+   "Code": "TN"
+ },
+ {
+   "Value": "LD",
+   "Code": "LD"
+ },
+ {
+   "Value": "WA",
+   "Code": "WA"
+ },
+ {
+   "Value": "MOL",
+   "Code": "MOL"
+ },
+ {
+   "Value": "Illinois",
+   "Code": "Illinois"
+ },
+ {
+   "Value": "AS",
+   "Code": "AS"
+ },
+ {
+   "Value": "MZ",
+   "Code": "MZ"
+ },
+ {
+   "Value": "CO",
+   "Code": "CO"
+ },
+ {
+   "Value": "NSW",
+   "Code": "NSW"
+ },
+ {
+   "Value": "N.",
+   "Code": "N."
+ },
+ {
+   "Value": "Abruzzo",
+   "Code": "Abruzzo"
+ },
+ {
+   "Value": "MS",
+   "Code": "MS"
+ },
+ {
+   "Value": "L.",
+   "Code": "L."
+ },
+ {
+   "Value": "OR",
+   "Code": "OR"
+ },
+ {
+   "Value": "Tripura",
+   "Code": "Tripura"
+ },
+ {
+   "Value": "QLD",
+   "Code": "QLD"
+ },
+ {
+   "Value": "DE",
+   "Code": "DE"
+ },
+ {
+   "Value": "Himachal Pradesh",
+   "Code": "Himachal Pradesh"
+ },
+ {
+   "Value": "Noord Brabant",
+   "Code": "Noord Brabant"
+ },
+ {
+   "Value": "Dr",
+   "Code": "Dr"
+ },
+ {
+   "Value": "Dadra and Nagar Haveli",
+   "Code": "Dadra and Nagar Haveli"
+ },
+ {
+   "Value": "Idaho",
+   "Code": "Idaho"
+ },
+ {
+   "Value": "Dr",
+   "Code": "Dr"
+ },
+ {
+   "Value": "PY",
+   "Code": "PY"
+ },
+ {
+   "Value": "Arkansas",
+   "Code": "Arkansas"
+ },
+ {
+   "Value": "Noord Holland",
+   "Code": "Noord Holland"
+ },
+ {
+   "Value": "Mississippi",
+   "Code": "Mississippi"
+ },
+ {
+   "Value": "Dr",
+   "Code": "Dr"
+ },
+ {
+   "Value": "Friesland",
+   "Code": "Friesland"
+ },
+ {
+   "Value": "TAS",
+   "Code": "TAS"
+ },
+ {
+   "Value": "LAZ",
+   "Code": "LAZ"
+ },
+ {
+   "Value": "U.",
+   "Code": "U."
+ },
+ {
+   "Value": "Odisha",
+   "Code": "Odisha"
+ },
+ {
+   "Value": "TR",
+   "Code": "TR"
+ },
+ {
+   "Value": "ACT",
+   "Code": "ACT"
+ },
+ {
+   "Value": "UP",
+   "Code": "UP"
+ },
+ {
+   "Value": "Punjab",
+   "Code": "Punjab"
+ },
+ {
+   "Value": "SA",
+   "Code": "SA"
+ },
+ {
+   "Value": "U.",
+   "Code": "U."
+ },
+ {
+   "Value": "Pondicherry",
+   "Code": "Pondicherry"
+ },
+ {
+   "Value": "BAS",
+   "Code": "BAS"
+ },
+ {
+   "Value": "VDA",
+   "Code": "VDA"
+ },
+ {
+   "Value": "NSW",
+   "Code": "NSW"
+ },
+ {
+   "Value": "TN",
+   "Code": "TN"
+ },
+ {
+   "Value": "VIC",
+   "Code": "VIC"
+ },
+ {
+   "Value": "LIG",
+   "Code": "LIG"
+ },
+ {
+   "Value": "Westmorland",
+   "Code": "Westmorland"
+ },
+ {
+   "Value": "LOM",
+   "Code": "LOM"
+ },
+ {
+   "Value": "NSW",
+   "Code": "NSW"
+ },
+ {
+   "Value": "RO",
+   "Code": "RO"
+ }
+]

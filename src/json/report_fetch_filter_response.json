@@ -1,0 +1,17 @@
+{ 
+  "type" : "filter.model",
+  "id" : "1237213847",
+  "username" : "sudhir",
+  "authtoken" : "eyJhbGciOiJIUzI1NiJ9",
+  "filter.name" : "salesorg",
+  "status.code" : 200,
+  "status.msg" : "Success",
+  "status.details" : "",
+  "filter.model" : [
+    { "label" : "1024-FMCG", "id" : "1024"},
+    { "label" : "1025-LULU", "id" : "1025"},
+    { "label" : "1026-KSA", "id" : "1026"},
+    { "label" : "1027-UAE", "id" : "1027"}
+    ],
+  "filter.model.selected" : [ "1025","1026" ]  
+}

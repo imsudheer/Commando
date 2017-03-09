@@ -1,0 +1,28 @@
+{ 
+  "type" : "report.fetch",
+  "id" : "1237213847",
+  "username" : "sudhir",
+  "authtoken" : "eyJhbGciOiJIUzI1NiJ9",
+  "report.name" : "MonthlyTargetsReview",
+  "report.filters" : [
+      {"filter" : "salesorg" , "selected" : ["1024","1026"]},
+      {"filter" : "product.department" , "selected" : ["APPL","WG"]},
+      {"filter" : "year.month" , "selected" : ["201607"]}
+    ],
+  "report.columns" : [
+    { "column" : "c1", "data.field" : "salesorg", "category" : "identity"},
+    { "column" : "d1", "data.field" : "monthlytarget",  "category" : "data"},
+    { "column" : "d2", "data.field" : "monthlyactual",  "category" : "data"},
+    { "column" : "d3", "data.field" : "monthlyachievement",  "category" : "data"},
+    { "column" : "d4", "data.field" : "previousyearmonthlyactual",  "category" : "data"},
+    { "column" : "d5", "data.field" : "yoygrowth" ,  "category" : "data"},
+    { "column" : "d6", "data.field" : "ytdtarget" ,  "category" : "data"},
+    { "column" : "d7", "data.field" : "ytdactual" ,  "category" : "data"},
+    { "column" : "d8", "data.field" : "ytdachievement" ,  "category" : "data"},
+    { "column" : "d9", "data.field" : "previousyearytdactual",  "category" : "data"},
+    { "column" : "d10", "data.field" : "yoyytdgrowth",  "category" : "data"}
+    ],
+  "report.variables" : {
+    "selected.yearmonth.label" : "", "previous.year.label" : ""
+  }
+}

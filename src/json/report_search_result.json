@@ -1,0 +1,23 @@
+{ 
+  "type" : "report.data",
+  "id" : "1237213847",
+  "username" : "sudhir",
+  "authtoken" : "eyJhbGciOiJIUzI1NiJ9",
+  "status.code" : 200,
+  "status.msg" : "Success",
+  "status.details" : "",  
+  "report.name" : "MonthlyTargetsReview",
+  "report.filters" : [
+      {"filter" : "salesorg" , "selected" : ["1024","1026"]},
+      {"filter" : "product.department" , "selected" : ["APPL","WG"]},
+      {"filter" : "year.month" , "selected" : ["201607"]}
+    ],
+  "report.data" : [
+    {"c1" : "FMCG", "d1" : 10, "d2" : 5 , "d3" : 50, "d4" : 4, "d5" : 25 , "d6" : 70, "d7" : 62 , "d8" : 89, "d9" : 64, "d10" : -5 },
+    {"c1" : "FMCG", "d1" : 10, "d2" : 5 , "d3" : 50, "d4" : 4, "d5" : 25 , "d6" : 70, "d7" : 62 , "d8" : 89, "d9" : 64, "d10" : -5 },
+    {"c1" : "FMCG", "d1" : 10, "d2" : 5 , "d3" : 50, "d4" : 4, "d5" : 25 , "d6" : 70, "d7" : 62 , "d8" : 89, "d9" : 64, "d10" : -5 }
+    ],
+  "report.variables" : {
+    "selected.yearmonth.label" : "July-2016", "previous.year.label" : "2015"
+  }
+}

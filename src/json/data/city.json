@@ -1,0 +1,402 @@
+[
+ {
+   "Value": "Allein",
+   "Code": "Allein"
+ },
+ {
+   "Value": "Springfield",
+   "Code": "Springfield"
+ },
+ {
+   "Value": "Wangaratta",
+   "Code": "Wangaratta"
+ },
+ {
+   "Value": "Almere",
+   "Code": "Almere"
+ },
+ {
+   "Value": "Borgomaro",
+   "Code": "Borgomaro"
+ },
+ {
+   "Value": "Bokaro Steel City",
+   "Code": "Bokaro Steel City"
+ },
+ {
+   "Value": "Launceston",
+   "Code": "Launceston"
+ },
+ {
+   "Value": "Mezzana",
+   "Code": "Mezzana"
+ },
+ {
+   "Value": "Sesto al Reghena",
+   "Code": "Sesto al Reghena"
+ },
+ {
+   "Value": "Kozhikode",
+   "Code": "Kozhikode"
+ },
+ {
+   "Value": "Almere",
+   "Code": "Almere"
+ },
+ {
+   "Value": "Armadale",
+   "Code": "Armadale"
+ },
+ {
+   "Value": "Almere",
+   "Code": "Almere"
+ },
+ {
+   "Value": "Kohima",
+   "Code": "Kohima"
+ },
+ {
+   "Value": "Omaha",
+   "Code": "Omaha"
+ },
+ {
+   "Value": "Dhanbad",
+   "Code": "Dhanbad"
+ },
+ {
+   "Value": "Launceston",
+   "Code": "Launceston"
+ },
+ {
+   "Value": "Raj Nandgaon",
+   "Code": "Raj Nandgaon"
+ },
+ {
+   "Value": "Darwin",
+   "Code": "Darwin"
+ },
+ {
+   "Value": "Montgomery",
+   "Code": "Montgomery"
+ },
+ {
+   "Value": "Cupar",
+   "Code": "Cupar"
+ },
+ {
+   "Value": "Coevorden",
+   "Code": "Coevorden"
+ },
+ {
+   "Value": "Rotterdam",
+   "Code": "Rotterdam"
+ },
+ {
+   "Value": "Workum",
+   "Code": "Workum"
+ },
+ {
+   "Value": "Canberra",
+   "Code": "Canberra"
+ },
+ {
+   "Value": "Tuscaloosa",
+   "Code": "Tuscaloosa"
+ },
+ {
+   "Value": "Wagga Wagga",
+   "Code": "Wagga Wagga"
+ },
+ {
+   "Value": "Bendigo",
+   "Code": "Bendigo"
+ },
+ {
+   "Value": "Goulburn",
+   "Code": "Goulburn"
+ },
+ {
+   "Value": "Daman",
+   "Code": "Daman"
+ },
+ {
+   "Value": "Bokaro Steel City",
+   "Code": "Bokaro Steel City"
+ },
+ {
+   "Value": "Wisbech",
+   "Code": "Wisbech"
+ },
+ {
+   "Value": "Juneau",
+   "Code": "Juneau"
+ },
+ {
+   "Value": "Kington",
+   "Code": "Kington"
+ },
+ {
+   "Value": "Dandenong",
+   "Code": "Dandenong"
+ },
+ {
+   "Value": "Thalassery",
+   "Code": "Thalassery"
+ },
+ {
+   "Value": "Cambridge",
+   "Code": "Cambridge"
+ },
+ {
+   "Value": "Pomarico",
+   "Code": "Pomarico"
+ },
+ {
+   "Value": "Port Blair",
+   "Code": "Port Blair"
+ },
+ {
+   "Value": "San Cesario di Lecce",
+   "Code": "San Cesario di Lecce"
+ },
+ {
+   "Value": "Murray Bridge",
+   "Code": "Murray Bridge"
+ },
+ {
+   "Value": "Alloa",
+   "Code": "Alloa"
+ },
+ {
+   "Value": "Darwin",
+   "Code": "Darwin"
+ },
+ {
+   "Value": "Meppel",
+   "Code": "Meppel"
+ },
+ {
+   "Value": "Southaven",
+   "Code": "Southaven"
+ },
+ {
+   "Value": "Kohima",
+   "Code": "Kohima"
+ },
+ {
+   "Value": "Alphen aan den Rijn",
+   "Code": "Alphen aan den Rijn"
+ },
+ {
+   "Value": "Ravenstein",
+   "Code": "Ravenstein"
+ },
+ {
+   "Value": "Hubli",
+   "Code": "Hubli"
+ },
+ {
+   "Value": "Delhi",
+   "Code": "Delhi"
+ },
+ {
+   "Value": "Cuddalore",
+   "Code": "Cuddalore"
+ },
+ {
+   "Value": "Kavaratti",
+   "Code": "Kavaratti"
+ },
+ {
+   "Value": "Nedlands",
+   "Code": "Nedlands"
+ },
+ {
+   "Value": "Bonefro",
+   "Code": "Bonefro"
+ },
+ {
+   "Value": "Chicago",
+   "Code": "Chicago"
+ },
+ {
+   "Value": "Nagaon",
+   "Code": "Nagaon"
+ },
+ {
+   "Value": "Aizwal",
+   "Code": "Aizwal"
+ },
+ {
+   "Value": "Newquay",
+   "Code": "Newquay"
+ },
+ {
+   "Value": "Sydney",
+   "Code": "Sydney"
+ },
+ {
+   "Value": "Schagen",
+   "Code": "Schagen"
+ },
+ {
+   "Value": "San Vito Chietino",
+   "Code": "San Vito Chietino"
+ },
+ {
+   "Value": "Jackson",
+   "Code": "Jackson"
+ },
+ {
+   "Value": "Wimmertingen",
+   "Code": "Wimmertingen"
+ },
+ {
+   "Value": "Eugene",
+   "Code": "Eugene"
+ },
+ {
+   "Value": "Agartala",
+   "Code": "Agartala"
+ },
+ {
+   "Value": "Brisbane",
+   "Code": "Brisbane"
+ },
+ {
+   "Value": "Denbigh",
+   "Code": "Denbigh"
+ },
+ {
+   "Value": "Shimla",
+   "Code": "Shimla"
+ },
+ {
+   "Value": "Tilburg",
+   "Code": "Tilburg"
+ },
+ {
+   "Value": "Emmen",
+   "Code": "Emmen"
+ },
+ {
+   "Value": "Silvassa",
+   "Code": "Silvassa"
+ },
+ {
+   "Value": "Meridian",
+   "Code": "Meridian"
+ },
+ {
+   "Value": "Hoogeveen",
+   "Code": "Hoogeveen"
+ },
+ {
+   "Value": "Pondicherry",
+   "Code": "Pondicherry"
+ },
+ {
+   "Value": "Springdale",
+   "Code": "Springdale"
+ },
+ {
+   "Value": "Amstelveen",
+   "Code": "Amstelveen"
+ },
+ {
+   "Value": "Gulfport",
+   "Code": "Gulfport"
+ },
+ {
+   "Value": "Coevorden",
+   "Code": "Coevorden"
+ },
+ {
+   "Value": "Drachten",
+   "Code": "Drachten"
+ },
+ {
+   "Value": "Devonport",
+   "Code": "Devonport"
+ },
+ {
+   "Value": "Cisterna di Latina",
+   "Code": "Cisterna di Latina"
+ },
+ {
+   "Value": "Zeist",
+   "Code": "Zeist"
+ },
+ {
+   "Value": "Raurkela",
+   "Code": "Raurkela"
+ },
+ {
+   "Value": "Agartala",
+   "Code": "Agartala"
+ },
+ {
+   "Value": "Canberra",
+   "Code": "Canberra"
+ },
+ {
+   "Value": "Bareilly",
+   "Code": "Bareilly"
+ },
+ {
+   "Value": "Kasur",
+   "Code": "Kasur"
+ },
+ {
+   "Value": "Port Lincoln",
+   "Code": "Port Lincoln"
+ },
+ {
+   "Value": "Nieuwegein",
+   "Code": "Nieuwegein"
+ },
+ {
+   "Value": "Pondicherry",
+   "Code": "Pondicherry"
+ },
+ {
+   "Value": "Albano di Lucania",
+   "Code": "Albano di Lucania"
+ },
+ {
+   "Value": "Bionaz",
+   "Code": "Bionaz"
+ },
+ {
+   "Value": "Campbelltown",
+   "Code": "Campbelltown"
+ },
+ {
+   "Value": "Alandur",
+   "Code": "Alandur"
+ },
+ {
+   "Value": "Bendigo",
+   "Code": "Bendigo"
+ },
+ {
+   "Value": "Vezzi Portio",
+   "Code": "Vezzi Portio"
+ },
+ {
+   "Value": "Appleby",
+   "Code": "Appleby"
+ },
+ {
+   "Value": "Pagazzano",
+   "Code": "Pagazzano"
+ },
+ {
+   "Value": "Bathurst",
+   "Code": "Bathurst"
+ },
+ {
+   "Value": "Melrose",
+   "Code": "Melrose"
+ }
+]

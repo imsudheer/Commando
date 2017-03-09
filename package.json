@@ -1,0 +1,44 @@
+{
+  "name": "commando",
+  "version": "1.0.0",
+  "description": "commando",
+  "scripts": {
+    "build": "tsc -p src/",
+    "build:watch": "tsc -p src/ -w",
+    "serve": "lite-server -c=bs-config.json",
+    "prestart": "npm run build",
+    "start": "concurrently \"npm run build:watch\" \"npm run serve\"",
+    "lint": "tslint ./src/**/*.ts -t verbose"
+  },
+  "keywords": ["Report Engine", "Commando" ],
+  "author": "winit",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "~2.4.9",
+    "@angular/compiler": "~2.4.9",
+    "@angular/core": "~2.4.9",
+    "@angular/forms": "~2.4.9",
+    "@angular/http": "~2.4.9",
+    "@angular/platform-browser": "~2.4.9",
+    "@angular/platform-browser-dynamic": "~2.4.9",
+    "@angular/router": "~3.4.9",
+    "angular-in-memory-web-api": "~0.3.0",
+    "browser-sync": "^2.18.8",
+    "core-js": "^2.4.1",
+    "lodash": "^4.17.4",
+    "rxjs": "5.2.0",
+    "systemjs": "0.20.9",
+    "zone.js": "^0.7.7"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "canonical-path": "0.0.2",
+    "concurrently": "^3.4.0",
+    "lite-server": "^2.2.2",
+    "lodash": "^4.17.4",
+    "rimraf": "^2.6.1",
+    "tslint": "^4.5.1",
+    "typescript": "~2.2.1"
+  },
+  "repository": {}
+}

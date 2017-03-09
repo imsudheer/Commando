@@ -1,0 +1,50 @@
+{
+  "context" : {
+      "UserCode" : "1234",
+      "UserName" : "Sudheer",
+      "Roles" : ["Salesman"]
+  },
+  "filters" : [
+      {
+        "FilterId" : "SalesOrg",
+        "Title" : "Sales Org",
+        "InputType" : "Multi-Select",
+        "Source" : "GetMySalesOrg",
+        "SelectionField" : "Code",
+        "DisplayField" : "Label",
+        "Model" : [
+                  {"Code" : "121", "Name" : "Org 1" , "Label" : "[121] Org 1"},
+                  {"Code" : "234", "Name" : "Org 2" , "Label" : "[234] Org 2"},
+                  {"Code" : "456", "Name" : "Org 3" , "Label" : "[456] Org 3"}
+                 ],
+       "SelectedItems" : ["121","456"],
+       "SelectedIndices" : [1,3],
+       "SelectedItemsLabel" : "[121] Org 1,[456] Org 3"
+      }
+    ],
+  "filterConstraintsAndDependencies" : [
+        {"TargetFilterId" : "SalesOrg", "DependencyType" : "SingleFilterSelection"  }
+    ],  
+  "DataSource" : {
+      "EmployeeList" : [
+          {"SalesOrg" : "[121] Org 1" , "EmpId" : "1343" , "EmpName" : "Ujjwal"},
+          {"SalesOrg" : "[121] Org 1" , "EmpId" : "1344" , "EmpName" : "Sukesh"}
+        ]
+  },
+  "Layout" : {
+    "style" : "VerticalBox",
+    "ViewContainers" : [{
+          "Type"  : "Grid",
+          "Title" : "Employee List",
+          "MaxRowsPerPage" : 50,
+          "SelectionField" : "EmpId",
+          "Columns" : [
+              {"Header" : "Sales Org", "DataField" : "SalesOrg" , "IsVisible" : true},
+              {"Header" : "Employee Id", "DataField" : "EmpId" , "IsVisible" : true},
+              {"Header" : "Employee Name", "DataField" : "EmpName" , "IsVisible" : true}
+            ]
+    }
+    ]
+  }
+    
+}

@@ -1,0 +1,46 @@
+<form id="formFilter" name="formFilter">
+    <div class="row">{{selectedFilters.Value}}</div>
+    <div class="row">
+        <div class="form-group col-lg-4" *ngFor="let filter of filters.filterSchema; let i = index">
+            <label>{{filter.Title}}</label>
+            <select class="form-control" name="filter.FilterId" [(ngModel)]="filter.selectedValue">
+                    <option *ngFor="let opt of filters.filterModels[filter.FilterId]?.Model" value="{{opt.Code}}">{{opt.Value}}</option>
+                </select>
+        </div>
+        <div class="form-group col-lg-4">
+            <label>&nbsp;</label>
+            <input class="form-control btn btn-primary" type="button" value="Search" (click)="onSearchClicked()" />
+        </div>
+    </div>
+    <div class="row" *ngIf="searched">
+        <div *ngIf="resultDataSet == null">Loading...</div>
+        <div *ngIf="resultDataSet != null">
+            <div>Showing 1 to {{resultDataSet?.length}} of {{resultDataSet?.length}} records.</div>
+            <div>Search Criteria:
+                <ul class="commaList">
+                    <li *ngFor="let filter of filters.filterSchema;">
+                        <span *ngIf="filter.selectedValue != null">
+                                        {{filter.Title}}= {{filter.selectedValue}}
+                                    </span>
+                    </li>
+                </ul>
+            </div>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Region</th>
+                    <th>Country</th>
+                    <th>Organization</th>
+                </tr>
+                <tr *ngFor="let user of resultDataSet">
+                    <td>{{user.Name}}</td>
+                    <td>{{user.City}}</td>
+                    <td>{{user.Region}}</td>
+                    <td>{{user.Country}}</td>
+                    <td>{{user.Organization}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</form>
