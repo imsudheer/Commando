@@ -20,7 +20,7 @@ export class DynamicTypeBuilder {
         let factory = this._cacheOfFactories[template];
 
         if (factory) {
-            console.log('Module and Type are returned from cache')
+            console.log('Module and Type are returned from cache');
 
             return new Promise((resolve) => {
                 resolve(factory);

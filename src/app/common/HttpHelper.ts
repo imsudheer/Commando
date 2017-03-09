@@ -17,7 +17,7 @@ export class HttpHelper {
             //  .map(result => {"data":result.json(), "payload": payload})
             .map(function (result) {
                 let output: { data: JSON, payLoad: Object };
-                output = { data: result.json(), payLoad: payload }
+                output = { data: result.json(), payLoad: payload };
                 return output;
             })
             .catch(this.handleError);

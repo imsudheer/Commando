@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { FilterService } from './../services/filter-service'
+import { FilterService } from './../services/filter-service';
 // import { FilterObject } from './../bo/app.bo.filter-object'
 
 @Component({
@@ -31,7 +31,7 @@ export class FilterComponent implements OnInit {
             filterSchema: [],
             filterModels: [],
             filterSelectedModels: []
-        }
+        };
     }
 
     getFilters() {

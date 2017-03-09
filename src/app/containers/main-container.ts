@@ -19,8 +19,8 @@ export class MainContainer extends BaseContainer {
 
     // private d : any = {name:'Neelesh'}
     // private city : string = 'Bangalore'
-    private city1: any = { city: 'Bangalore' }
-    private cities: Array<string> = ['Hyderabad', 'Bangalore', 'Mumbai', 'Delhi']
+    private city1: any = { city: 'Bangalore' };
+    private cities: Array<string> = ['Hyderabad', 'Bangalore', 'Mumbai', 'Delhi'];
 
     private selectedFilters: any;
     // private resultData: any;
