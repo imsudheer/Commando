@@ -1,5 +1,5 @@
-import {  ComponentRef, ViewChild, ViewContainerRef, ComponentFactory } from '@angular/core';
-import {  OnInit } from '@angular/core';
+import { ComponentRef, ViewChild, ViewContainerRef, ComponentFactory } from '@angular/core';
+import { OnInit } from '@angular/core';
 
 import { IHaveDynamicData, DynamicTypeBuilder } from './../dynamic/type.builder';
 // import { ReflectiveInjector } from '@angular/core';
@@ -18,9 +18,7 @@ export abstract class BaseContainer implements OnInit {
     // protected typeBuilder: DynamicTypeBuilder
 
 
-    constructor(
-        protected typeBuilder: DynamicTypeBuilder
-    ) {
+    constructor(protected typeBuilder: DynamicTypeBuilder) {
     }
 
     protected getTemplate() {

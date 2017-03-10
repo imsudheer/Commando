@@ -6,7 +6,7 @@ export class DynamicTemplateBuilder {
   public prepareTemplate(entity: any, useTextarea: boolean) {
 
     let properties = Object.keys(entity);
-    let template = '<form >';
+    let template = '<div>';
     let editorName = useTextarea
       ? 'text-editor'
       : 'string-editor';
@@ -19,6 +19,6 @@ export class DynamicTemplateBuilder {
           ></${editorName}>`;
     });
 
-    return template + '</form>';
+    return template + '</div>';
   }
 }

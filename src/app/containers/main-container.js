@@ -53,12 +53,17 @@ var MainContainer = (function (_super) {
     MainContainer.prototype.getDisplayTemplate = function () {
         return "<grid-view [model]='resultData' ></grid-view>";
     };
+    MainContainer.prototype.OnInit = function () {
+        this.getBaseData();
+    };
+    MainContainer.prototype.getBaseData = function () {
+    };
     return MainContainer;
 }(base_container_1.BaseContainer));
 MainContainer = __decorate([
     core_1.Component({
         selector: 'main-container',
-        template: "<filter-component [selectedFilters]='selectedFilters'></filter-component><br/>\n    <div #dynamicContentPlaceHolder></div>\n    <br/>\n    SELECTED FILTERS: {{selectedFilters.Value}}\n    <div #dynamicDisplayContentPlaceHolder></div>\n    ",
+        template: "\n    <form>\n        <filter-component [selectedFilters]='selectedFilters'></filter-component><br/>\n        <div #dynamicContentPlaceHolder></div>\n        <br/>\n        SELECTED FILTERS: {{selectedFilters.Value}}\n        <div #dynamicDisplayContentPlaceHolder></div>\n     </form>\n    ",
     }),
     __metadata("design:paramtypes", [type_builder_1.DynamicTypeBuilder])
 ], MainContainer);

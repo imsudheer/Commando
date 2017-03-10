@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { BaseContainer } from './base-container';
 // import { AfterViewInit, OnInit, OnDestroy } from '@angular/core';
 
@@ -8,14 +8,17 @@ import { DynamicTypeBuilder } from './../dynamic/type.builder';
 
 @Component({
     selector: 'main-container',
-    template: `<filter-component [selectedFilters]='selectedFilters'></filter-component><br/>
-    <div #dynamicContentPlaceHolder></div>
-    <br/>
-    SELECTED FILTERS: {{selectedFilters.Value}}
-    <div #dynamicDisplayContentPlaceHolder></div>
+    template: `
+    <form>
+        <filter-component [selectedFilters]='selectedFilters'></filter-component><br/>
+        <div #dynamicContentPlaceHolder></div>
+        <br/>
+        SELECTED FILTERS: {{selectedFilters.Value}}
+        <div #dynamicDisplayContentPlaceHolder></div>
+     </form>
     `,
 })
-export class MainContainer extends BaseContainer {
+export class MainContainer extends BaseContainer implements OnInit {
 
     // private d : any = {name:'Neelesh'}
     // private city : string = 'Bangalore'
@@ -53,4 +56,11 @@ export class MainContainer extends BaseContainer {
         this.selectedFilters = { 'Value': 'hi from main container' };
     }
 
+    OnInit(): void {
+        this.getBaseData();
+    }
+
+    protected getBaseData(): void {
+
+    }
 }

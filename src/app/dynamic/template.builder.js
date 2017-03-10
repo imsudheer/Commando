@@ -12,14 +12,14 @@ var DynamicTemplateBuilder = (function () {
     }
     DynamicTemplateBuilder.prototype.prepareTemplate = function (entity, useTextarea) {
         var properties = Object.keys(entity);
-        var template = '<form >';
+        var template = '<div>';
         var editorName = useTextarea
             ? 'text-editor'
             : 'string-editor';
         properties.forEach(function (propertyName) {
             template += "\n          <" + editorName + "\n              [propertyName]=''" + propertyName + "''\n              [entity]='entity'\n          ></" + editorName + ">";
         });
-        return template + '</form>';
+        return template + '</div>';
     };
     return DynamicTemplateBuilder;
 }());
